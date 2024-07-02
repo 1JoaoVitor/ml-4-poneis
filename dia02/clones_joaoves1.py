@@ -49,7 +49,7 @@ arvore.fit(x, df['Status '])
 # %%
 tree.plot_tree(arvore, class_names=arvore.classes_, feature_names=x.columns, filled=True)
 # com isso cnoseguimos separar alguns grupos de aptos e defeituosos, mostrando que
-# a relação com os generais não era única e talvez determinante 
+# a relação com os generais não era única e talvez não determinante 
 
 
 # %%

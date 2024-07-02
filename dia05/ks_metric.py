@@ -65,3 +65,7 @@ df.to_excel("../data/dados_ks.xlsx", index=False)
 # %%
 
 skplt.metrics.plot_ks_statistic(y_test, y_test_proba)
+# o que é KS ? Métrica para medir aderência do modelo, cada reta é o quanto de captura 
+# está sendo feita de 0 (azul) ou 1 (laranja) quando as probabilidades estão ordenadas e estão 
+# sendo feitos cortes (tipo de arvore de decisão). 
+# %%

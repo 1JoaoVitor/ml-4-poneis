@@ -149,4 +149,4 @@ plt.show()
 roc_auc = metrics.roc_auc_score(df[target], nb_proba)
 roc_auc # área de baixo da curva, maior melhor
 
-# %%
+    # %%
